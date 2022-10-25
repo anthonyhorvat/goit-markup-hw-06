@@ -446,6 +446,7 @@
                 class="mailing-input"
                 placeholder="E-mail"
                 id="mailing-email"
+                required
               />
             </div>
 
@@ -466,7 +467,13 @@
         <form class="modal-form">
           <label for="name" class="label-text">Ім'я</label>
           <div class="form-field">
-            <input type="text" id="name" name="name" class="modal-input" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="modal-input"
+              required
+            />
 
             <svg width="18" height="18" class="form-icon">
               <use href="./images/icons.svg#icon-user"></use>
@@ -480,6 +487,7 @@
               id="phone-number"
               name="phone-number"
               class="modal-input"
+              required
             />
 
             <svg width="18" height="18" class="form-icon">
@@ -494,6 +502,7 @@
               id="order-email"
               name="order-email"
               class="modal-input"
+              required
             />
 
             <svg width="18" height="18" class="form-icon">
@@ -516,6 +525,7 @@
               class="agreement-input visually-hidden"
               value="true"
               id="modal-checkbox"
+              required
             />
             <label for="modal-checkbox" class="agreement-label">
               <span>
